@@ -1,0 +1,41 @@
+.background-gray {
+    background-color: rgba($color: #eee, $alpha: 0.5)
+}
+
+.expertise-list {
+    width: 75%;
+    margin: auto;
+    clear: both;
+    margin-top: 50px;
+    
+    .expertise {
+
+        $icon-margin: 50px;
+
+        // margin-top: 40px;
+        clear: both;
+        margin-bottom: 100px;
+
+        .expertise-icon {
+            width: 150px;
+        }
+    
+        .expertise-description {
+            overflow: auto;
+        }
+
+        &:nth-child(odd) {
+            .expertise-icon {
+                float: left;
+                margin-right: $icon-margin;
+            }
+        }
+    
+        &:nth-child(even) {
+            .expertise-icon {
+                float: right;
+                margin-left: $icon-margin;
+            }
+        }
+    }
+}
