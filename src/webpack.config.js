@@ -4,7 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: './main.js',
+    entry: [
+        './main.js',
+    ],
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'
@@ -13,8 +15,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            //   title: 'Budget',
-            template: './index.htm'
+            template: './index.hbs'
         })
     ],
     module: {
@@ -25,6 +26,15 @@ module.exports = {
                     'style-loader',
                     'css-loader'
                 ]
+            },
+            {
+                test: /\.hbs$/,
+                loader: 'handlebars-loader',
+                options: {
+                    partialDirs: [
+                        path.join(__dirname, 'partials')
+                    ]
+                }
             },
             {
                 test: /\.s(c|a)ss$/,
@@ -57,6 +67,20 @@ module.exports = {
                 test: /\.jsx$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'file-loader'
+            },
+            {
+                test: /\.html?$/,
+                // loader: 'babel-loader',
+                exclude: /node_modules/,
+                use: [
+                    'file-loader',
+                    'extract-loader',
+                    'html-loader'
+                ]
             }
         ]
     },

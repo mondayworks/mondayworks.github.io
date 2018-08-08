@@ -1,0 +1,21 @@
+hero:
+  title: hello.
+  text: lala
+areas-of-expertise:
+  - title: Continuous integration and continuous delivery
+  - title: Domain-driven design
+  - title: TDD
+  - title: Kubernetes
+  - title: Agile process management
+  - title: Development in .NET and Node.js
+  - title: Azure and AWS
+  - title: Architecture
+  - title: Distributed systems
+  - title: Event-driven Architecture
+  - title: Messaging
+  - title: Event Sourcing
+services:
+  - title: Development in .NET and Node.js
+  - title: System Integration
+  - title: Architecture
+  - title: Microservices
