@@ -1,0 +1,34 @@
+.services {
+    li {
+        list-style-type: square;
+    }
+
+    .row {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    .service {
+        clear: both;
+
+        .content-wrapper {
+            overflow: auto;
+        }
+
+        .service-icon {
+            float: left;
+            margin-right: 4rem;
+
+            &.right {
+                float: right;
+                margin-left: 4rem;
+            }
+        }
+    }
+
+    hr {
+        background-color: #eee;
+        opacity: 0.25;
+        height: 1px;
+    }
+}

@@ -1,0 +1,12 @@
+.fadein-slow {
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

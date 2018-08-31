@@ -1,57 +1,65 @@
-<section id="expertise" class="section expertise fadein">
+{{#*inline "single-expertise"}}
+        <div class="expertise column has-text-centered fadein-delayed">
+            <img class="logo" src="{{logo}}">
+            <h2 class="subtitle">{{title}}</h2>
+            <p>{{text}}</p>
+        </div>
+{{/inline}} 
+
+<section id="expertises" class="section expertises fadein">
     <div class="container">
         <h1 class="title has-text-centered">Expertise</h1>
-
+<br>
+<br>
         <div class="columns">
-            <div class="column">
-                <img width="50%" src="img/loop.png">
-                <h2 class="subtitle is-4 has-text-centered">Continuous Integration &amp; Continuous Delivery</h2>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-
-                    <ul>
-                        <li>Aenean sed adipiscing diam donec</li>
-                        <li>Adipiscing tristique risus</li>
-                        <li>Fames ac turpis egestas sed tempus</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="column"></div>
-            <div class="column"></div>
+            {{> single-expertise 
+                title=".NET & .NET Core"
+                text="Experts in .NET & .NET Core and specialized in ASP.NET building web apps and APIs."
+                logo="https://docs.microsoft.com/en-us/dotnet/images/hub/netcore.svg"
+            }}
+            {{> single-expertise 
+                title="JavaScript"
+                text="Experts in modern flavours of JavaScript like ES2015 and ES2016 with Node.js and/or browser as runtime."
+                logo="https://cdnhtml5hive.azureedge.net/wp-content/uploads/2014/06/js_800x800-619x619.jpg?x25428"
+            }}
+        </div>
+        <div class="columns">
+            {{> single-expertise 
+                title="React"
+                text="Highly skilled in building modular and componentized web frontends with React."
+                logo="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+            }}
+            {{> single-expertise 
+                title="Web Frontend"
+                text="Highly skilled in using modern web tech like HTML5, CSS3, Flex Box, Vue.js, Webpack or plain old jQuery."
+                logo="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-512.png"
+            }}
         </div>
 
-        {{!-- <ul class="expertise-list">
-            <li class="expertise fadein-left">
-                <img class="expertise-icon" src="img/loop.png">
+        <div class="columns">
+            {{> single-expertise 
+                title="Docker"
+                text="Highly skilled in using Docker for .NET Core and Node.js web applications."
+                logo="https://www.uio.no/for-ansatte/enhetssider/los/usit/arrangementer/forum/2015/docker.png"
+            }}
+            {{> single-expertise 
+                title="Kubernetes"
+                text="Highly skilled in using Kubernetes for container orchestration platform."
+                logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMQrgZGefNDIkkkfZgnxLhaWeGjUKi_HT8Im-Ah49Sx_TyzfQ"
+            }}
+        </div>
+        <div class="columns">
+            {{> single-expertise 
+                title="Microsoft Azure"
+                text="Highly skilled in using Microsoft Azure cloud services."
+                logo="https://i1.wp.com/buildazure.com/wp-content/uploads/2017/09/Azure.png?resize=519%2C387&ssl=1"
+            }}
+            {{> single-expertise 
+                title="AWS"
+                text="Highly skilled in using Amazon Web Services cloud services."
+                logo="https://www.datocms-assets.com/2885/1528219798-aws-blog.png"
+            }}
+        </div>
 
-                <div class="expertise-description">
-                        <h3 class="title is-4">Continuous Integration &amp; Continuous Delivery</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <br>
-                        <ul>
-                            <li>Aenean sed adipiscing diam donec</li>
-                            <li>Adipiscing tristique risus</li>
-                            <li>Fames ac turpis egestas sed tempus</li>
-                        </ul>
-                </div>
-            </li>
-            <li class="expertise fadein-right">
-                <img class="expertise-icon" src="https://banner2.kisspng.com/20180401/fce/kisspng-computer-icons-devops-continuous-integration-agile-infinity-5ac0b1b637cfb3.7832387315225778462286.jpg">
-
-                <div class="expertise-description">
-                        <h3 class="title is-4">Continuous Integration &amp; Continuous Delivery</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <br>
-                        <ul>
-                            <li>Aenean sed adipiscing diam donec</li>
-                            <li>Adipiscing tristique risus</li>
-                            <li>Fames ac turpis egestas sed tempus</li>
-                        </ul>
-                </div>
-            </li>
-        </ul> --}}
     </div>
 </section>

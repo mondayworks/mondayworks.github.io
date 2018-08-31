@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="252px" height="252px" viewBox="0 0 252 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="125" cy="125" r="125"></circle>
+        <rect id="path-3" x="0" y="0" width="30" height="26"></rect>
+        <rect id="path-4" x="0" y="0" width="30" height="26"></rect>
+        <rect id="path-5" x="0" y="0" width="30" height="26"></rect>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-58.000000, -1283.000000)">
+        <g id="Services" transform="translate(-31.000000, 701.000000)">
+            <g id="System-Integration" transform="translate(90.000000, 574.000000)">
+                <g id="Group-4" transform="translate(0.000000, 9.000000)">
+                    <g id="Oval-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <ellipse fill="#D8D8D8" opacity="0.0700000003" mask="url(#mask-2)" cx="128" cy="210.5" rx="152" ry="82.5"></ellipse>
+                    </g>
+                    <circle id="Oval-2-Copy" stroke="#9B9B9B" stroke-width="2" cx="125" cy="125" r="125"></circle>
+                    <g id="logo" transform="translate(52.000000, 54.000000)">
+                        <g id="Group-5" transform="translate(58.000000, 0.000000)">
+                            <g id="Rectangle-10">
+                                <use fill-opacity="0.1" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <rect stroke="#F1F1F1" stroke-width="1" x="0.5" y="0.5" width="29" height="25"></rect>
+                            </g>
+                            <path d="M5.42033911,32.5 L24.5261879,32.5" id="Line-2" stroke="#F1F1F1" stroke-linecap="square"></path>
+                        </g>
+                        <g id="Group-5-Copy" transform="translate(0.000000, 70.000000)">
+                            <g id="Rectangle-10">
+                                <use fill-opacity="0.1" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <rect stroke="#F1F1F1" stroke-width="1" x="0.5" y="0.5" width="29" height="25"></rect>
+                            </g>
+                            <path d="M5.42033911,32.5 L24.5261879,32.5" id="Line-2" stroke="#F1F1F1" stroke-linecap="square"></path>
+                        </g>
+                        <g id="Group-5-Copy-2" transform="translate(117.000000, 70.000000)">
+                            <g id="Rectangle-10">
+                                <use fill-opacity="0.1" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                <rect stroke="#F1F1F1" stroke-width="1" x="0.5" y="0.5" width="29" height="25"></rect>
+                            </g>
+                            <path d="M5.42033911,32.5 L24.5261879,32.5" id="Line-2" stroke="#F1F1F1" stroke-linecap="square"></path>
+                        </g>
+                        <path d="M30.9488478,110.645578 C37.0419653,117.101469 44.5881546,122.171106 53.0644433,125.331518 C59.4260829,127.703476 66.3116318,129 73.5,129 C90.4755767,129 105.762377,121.769489 116.448669,110.220199 M131.625474,63.8437156 C129.055383,41.1516975 113.503002,22.39513 92.5745645,15.1802464 M52.6119746,15.839336 C32.333902,23.5930366 17.4749072,42.3063495 15.2805987,64.7336662" id="Oval-4" stroke="#979797"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

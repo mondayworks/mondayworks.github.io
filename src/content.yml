@@ -5,9 +5,26 @@ areas-of-expertise:
   - title: Continuous integration and continuous delivery
   - title: Domain-driven design
   - title: TDD
-  - title: Kubernetes
   - title: Agile process management
-  - title: Development in .NET and Node.js
+  
+  - title: .NET and .NET Core
+    text:  Over a decade of experiense with .NET and ASP.NET and highly skilled in .NET Core and ASP.NET Core.
+  
+  - title: JavaScript
+    text:  Highly skilled in modern flavours of JavaScript e.g. ES2015 and ES2016 with Node.js as runtime and Babel as transpiler.
+
+  - title: Docker
+    text:  Very experienced using Docker for .NET Core and Node.js web applications.
+
+  - title: Kubernetes
+    text:  Prefered container orchestration platform with Prometheus and Grafana for monitoring.
+
+  - title: React
+    text:  Experienced building modular and componentized web frontends with React.
+
+  - title: Web Frontend
+    text:  Experienced using modern web tech like HTML5, CSS3, Flex Box, React, Vue.js or plain old jQuery.
+
   - title: Azure and AWS
   - title: Architecture
   - title: Distributed systems
