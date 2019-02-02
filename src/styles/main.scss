@@ -1,14 +1,15 @@
 @import "effects";
 @import "header";
 @import "services";
+@import "highlights";
 @import "expertises";
 
 strong, .title, .subtitle {
     color: inherit;
 }
 
-section.section {
-    h1 {
-        margin-bottom: 3rem !important;
-    }
-}
+// section.section {
+//     h1 {
+//         margin-bottom: 3rem !important;
+//     }
+// }

@@ -1,34 +1,19 @@
 .services {
-    li {
-        list-style-type: square;
-    }
 
-    .row {
-        margin-top: 3rem;
-        margin-bottom: 4rem;
-    }
+    padding-bottom: 4rem;
 
-    .service {
-        clear: both;
-
-        .content-wrapper {
-            overflow: auto;
-        }
-
-        .service-icon {
-            float: left;
-            margin-right: 4rem;
-
-            &.right {
-                float: right;
-                margin-left: 4rem;
-            }
-        }
+    .service-icon {
+        max-width: 50%;
     }
 
     hr {
-        background-color: #eee;
-        opacity: 0.25;
-        height: 1px;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+        width: 10%;
+        height: 0.2rem;
+        margin-left: auto;
+        margin-right: auto;    
     }
+
+    padding-bottom: 8rem;
 }
