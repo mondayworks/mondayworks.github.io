@@ -1,23 +1,13 @@
 .highlight {
 
-    &.right {
-        .title, .subtitle {
-            text-align: right;
-        }
-
-        hr {
-            margin-left: auto;
-            margin-right: 0;
-        }
+    &.section:nth-child(even) {
+        padding-top: 0;
     }
-
-    padding-top: 4rem;
-    padding-bottom: 4rem;
 
     hr {
         margin-top: 1rem;
-        margin-bottom: 4rem;
-        width: 10%;
+        // margin-bottom: 4rem;
+        width: 20%;
         height: 0.2rem;
     }
 

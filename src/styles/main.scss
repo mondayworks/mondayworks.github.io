@@ -8,8 +8,17 @@ strong, .title, .subtitle {
     color: inherit;
 }
 
-// section.section {
-//     h1 {
-//         margin-bottom: 3rem !important;
-//     }
-// }
+section.section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+a {
+    color: inherit;
+}
+
+.content {
+    ul > li {
+        list-style-type: square;
+    }
+}

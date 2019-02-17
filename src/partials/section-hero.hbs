@@ -1,4 +1,4 @@
-<section class="section">
+{{!-- <section class="section"> --}}
     <div class="container">
         <div class="columns">
             <div class="column">
@@ -30,11 +30,20 @@
                 <br>
             </div>
             <div class="column">
-                <img src="img/light_bulb.jpg" alt="">
+                <div class="hero-sketches">
+                
+                    {{> sketch_lightbulb}}
+                    {{> sketch_architecture}}
+                    {{> sketch_classdiagram}}
+                    {{> sketch_spaceship}}
+                    {{> sketch_kanban}}
+
+                </div>
+
             </div>
         </div>
         <div class="has-text-centered">
             <img class="arrow-down" src="img/arrow_down.png" alt="">
         </div>
     </div>
-</section>
+{{!-- </section> --}}

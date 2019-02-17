@@ -32,7 +32,8 @@ module.exports = {
                 loader: 'handlebars-loader',
                 options: {
                     partialDirs: [
-                        path.join(__dirname, 'partials')
+                        path.join(__dirname, 'partials'),
+                        path.join(__dirname, 'img'),
                     ]
                 }
             },
