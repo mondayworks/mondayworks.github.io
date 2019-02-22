@@ -49,7 +49,7 @@ class Carousel {
         })
         .then(() => {
           return new Promise(resolve => {
-            jq("#" + sketchId).fadeOut(1000, function() {
+            jq("#" + sketchId).fadeOut(500, function() {
               resolve(this);
             });  
           });

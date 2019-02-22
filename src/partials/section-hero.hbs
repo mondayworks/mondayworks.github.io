@@ -1,49 +1,47 @@
-{{!-- <section class="section"> --}}
-    <div class="container">
-        <div class="columns">
-            <div class="column">
-                <br>
-                <br>
-                <br>
+<div class="container">
+    <div class="columns">
+        <div class="column hero-greeting">
+            <br>
+            <br>
+            <br>
 
-                <div class="hello-title">hello.</div>
-                <p>
-                   We are a small software consultancy that help clients improve their business 
-                   by using modern software technologies. We also help modernizing current business 
-                   critical systems that have become hard and expensive to maintain - while remaining 
-                   pragmatic in our approach.
-                </p>
+            <div class="hello-title">hello.</div>
+            <p class="hello-message random-bold">
+                We are a small software consultancy that <span>help</span> clients <span>improve their business</span> 
+                by using <span>modern software technologies</span>. We also help modernizing current <span>business 
+                critical</span> systems that have become hard and expensive to maintain - while <span>remaining 
+                pragmatic</span> in our approach.
+            </p>
 
-                <br />
-                <br />
+            <br />
+            <br />
 
-                <button class="button is-primary">Get in touch</button>
+            <button class="button is-primary hello-get-in-touch">Get in touch</button>
 
-                <br>
-                <br>
-                <br>
+            <br>
+            <br>
+            <br>
 
-                <p class="fadein-slow" style="font-weight: lighter;">...see you <span style="font-style: italic; font-weight: bolder;">monday</span> maybe?</p>
+            <p class="fadein-slow hello-see-you-later" style="font-weight: lighter;">...see you <span style="font-style: italic; font-weight: bolder;">monday</span> maybe?</p>
 
-                <br>
-                <br>
-                <br>
-            </div>
-            <div class="column">
-                <div class="hero-sketches">
-                
-                    {{> sketch_lightbulb}}
-                    {{> sketch_architecture}}
-                    {{> sketch_classdiagram}}
-                    {{> sketch_spaceship}}
-                    {{> sketch_kanban}}
-
-                </div>
-
-            </div>
+            <br>
+            <br>
+            <br>
         </div>
-        <div class="has-text-centered">
-            <img class="arrow-down" src="img/arrow_down.png" alt="">
+        <div class="column">
+            <div class="hero-sketches">
+            
+                {{> sketch_lightbulb}}
+                {{> sketch_architecture}}
+                {{> sketch_classdiagram}}
+                {{> sketch_spaceship}}
+                {{> sketch_kanban}}
+
+            </div>
+
         </div>
     </div>
-{{!-- </section> --}}
+    <div class="has-text-centered">
+        <img class="arrow-down" src="img/arrow_down.png" alt="">
+    </div>
+</div>

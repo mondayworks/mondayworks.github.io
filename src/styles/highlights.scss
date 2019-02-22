@@ -1,6 +1,6 @@
 .highlight {
 
-    &.section:nth-child(even) {
+    & + &  {
         padding-top: 0;
     }
 
@@ -16,5 +16,10 @@
             max-width: 20%;
             margin: 1rem;
         }
+    }
+
+    & > .container {
+        padding-left: 6rem;
+        padding-right: 6rem;
     }
 }

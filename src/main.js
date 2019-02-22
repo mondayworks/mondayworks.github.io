@@ -16,5 +16,5 @@ sr.reveal(".fadein-right", { origin: "right", distance: "100%", duration: "1000"
 jq.ready
   .then(() => {
     const sketches = new Sketches();
-    sketches.start();
+    setTimeout(() => sketches.start(), 3500);
   });

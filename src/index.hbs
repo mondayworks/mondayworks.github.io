@@ -7,50 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{!-- <script src="bundle.js"></script> --}}
 </head>
-
 <body>
 
-    {{!-- <section class="hero is-fullheight">
-
-        <div class="hero-body">
-
-            <div class="container has-text-centered">
-                
-                <img src="img/logo.png" style="height: 2rem;">
-                <br>
-                <br>
-                <p class="title" style="font-size: 3rem; font-weight: 100;">See you monday, maybe?</p>
-                <p style="display: block; margin-left: auto; margin-right: auto; width: 65%; font-weight: 100;">
-                   We are a small software consultancy that help clients improve their business 
-                   by using modern software technologies. We also help modernizing current business 
-                   critical systems that have become hard and expensive to maintain - while remaining 
-                   pragmatic in our approach.
-                </p>
-                
-            </div>
-
-        </div>
-
-
-    </section> --}}
-
-    <section class="hero is-fullheight header">
-        {{> top-menu}}
-        <div class="hero-body">
-            {{> section-hero}}
-        </div>
-    </section>
+    {{> header}}
 
     {{> section-services-new}}
 
+    <div id="highlights"></div>
     {{> section-highlight-development}}
-
+    {{> section-highlight-containers}}
     {{> section-highlight-cloud}}
 
     {{!-- {{> section-areas-of-expertise}} --}}
 
     {{> section-contact}}        
-
     {{> section-about}}
 
     {{> footer}}

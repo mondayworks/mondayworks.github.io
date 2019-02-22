@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: [
@@ -14,19 +15,15 @@ module.exports = {
     devtool: 'source-map',
     plugins: [
         new CleanWebpackPlugin(['dist']),
+        new MiniCssExtractPlugin({
+            filename: "[name].css",
+        }),
         new HtmlWebpackPlugin({
             template: './index.hbs'
-        })
+        }),
     ],
     module: {
         rules: [
-            {
-                test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader'
-                ]
-            },
             {
                 test: /\.hbs$/,
                 loader: 'handlebars-loader',
@@ -41,7 +38,7 @@ module.exports = {
                 test: /\.s(c|a)ss$/,
                 use: [
                     {
-                        loader: "style-loader"
+                        loader: MiniCssExtractPlugin.loader
                     },
                     {
                         loader: "css-loader",
