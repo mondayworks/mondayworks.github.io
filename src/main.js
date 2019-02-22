@@ -9,6 +9,15 @@ import "./img/services_development.svg";
 import "./img/services_integration.svg";
 import "./img/services_agile.svg";
 
+import "./img/icon_dotnet.svg";
+import "./img/icon_html5.jpg";
+import "./img/icon_js.jpg";
+import "./img/icon_react.png";
+import "./img/icon_docker.png";
+import "./img/icon_kubernetes.png";
+import "./img/icon_azure.png";
+import "./img/icon_aws.png";
+
 window.sr = ScrollReveal();
 sr.reveal(".fadein", { delay: 200 });
 // sr.reveal(".fadein-delayed", { delay: "200" }, 150);
