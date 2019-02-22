@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="252px" height="252px" viewBox="0 0 252 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="125" cy="125" r="125"></circle>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-58.000000, -2027.000000)">
+        <g id="Services" transform="translate(-31.000000, 701.000000)">
+            <g id="Agile-Process-Copy" transform="translate(90.000000, 1324.000000)">
+                <g id="Group-2-Copy" transform="translate(0.000000, 3.000000)">
+                    <g id="Group-4">
+                        <g id="Oval-3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <ellipse fill="#D8D8D8" opacity="0.0700000003" mask="url(#mask-2)" cx="128" cy="210.5" rx="152" ry="82.5"></ellipse>
+                        </g>
+                        <circle id="Oval-2-Copy" stroke="#9B9B9B" stroke-width="2" cx="125" cy="125" r="125"></circle>
+                        <g id="sprint-copy" transform="translate(63.000000, 50.000000)">
+                            <polygon id="Triangle" fill="#F1F1F1" points="134 137 122 143 122 131"></polygon>
+                            <path d="M0.96458035,137 L128.030411,137" id="Line" stroke="#F1F1F1" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M83.7457568,136 C102.610564,129.141125 113,111.898613 113,90.0752169 C113,62.4194383 91.2858104,40 64.5,40 C37.7141896,40 16,62.4194383 16,90.0752169" id="Oval-2" stroke="#F1F1F1" stroke-width="2"></path>
+                            <polygon id="Triangle-Copy" fill="#F1F1F1" transform="translate(16.500000, 95.500000) rotate(-270.000000) translate(-16.500000, -95.500000) " points="23 95.5 10 102 10 89"></polygon>
+                            <g id="daily" transform="translate(32.500000, 28.500000) rotate(-90.000000) translate(-32.500000, -28.500000) translate(4.000000, -4.000000)">
+                                <path d="M39.8093623,56.2212644 C50.8948678,52.2044453 57,42.1065723 57,29.3259584 C57,13.1296788 44.2401154,0 28.5,0 C12.7598846,0 0,13.1296788 0,29.3259584" id="Oval-2-Copy" stroke="#F1F1F1"></path>
+                                <polygon id="Triangle-Copy-2" fill="#F1F1F1" transform="translate(37.674682, 56.221264) rotate(-204.000000) translate(-37.674682, -56.221264) " points="44.1566026 56.2212644 31.1927608 62.6146291 31.1927608 49.8278997"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

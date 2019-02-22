@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="252px" height="252px" viewBox="0 0 252 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="125" cy="125" r="125"></circle>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-58.000000, -824.000000)">
+        <g id="Services" transform="translate(-31.000000, 701.000000)">
+            <g id="Development" transform="translate(90.000000, 124.000000)">
+                <g id="Group-2">
+                    <g id="Group-4">
+                        <g id="Oval-3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <ellipse fill="#D8D8D8" opacity="0.0700000003" mask="url(#mask-2)" cx="128" cy="210.5" rx="152" ry="82.5"></ellipse>
+                        </g>
+                        <circle id="Oval-2-Copy" stroke="#9B9B9B" stroke-width="2" cx="125" cy="125" r="125"></circle>
+                        <path d="M111.025391,143.019531 L76.9238281,128.535156 L76.9238281,122.628906 L111.025391,108.144531 L111.025391,114.4375 L83.9550781,125.582031 L111.025391,136.726562 L111.025391,143.019531 Z M135.001953,99.4609375 L120.095703,151 L114.998047,151 L129.904297,99.4609375 L135.001953,99.4609375 Z M173.076172,128.535156 L138.974609,143.019531 L138.974609,136.726562 L166.044922,125.582031 L138.974609,114.4375 L138.974609,108.144531 L173.076172,122.628906 L173.076172,128.535156 Z" id="&lt;/&gt;" fill="#F1F1F1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

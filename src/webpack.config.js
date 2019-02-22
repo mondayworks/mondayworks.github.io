@@ -67,8 +67,14 @@ module.exports = {
                 exclude: /node_modules/
             },
             {
-                test: /\.(png|jpg)$/,
-                loader: 'file-loader'
+                test: /\.(png|jpg|svg)$/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: 'img/'
+                    }
+                }]
             },
             {
                 test: /\.html?$/,
